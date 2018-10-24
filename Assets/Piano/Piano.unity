@@ -203,6 +203,10 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 5509e06918ac113468757b45797772f3, type: 2}
+    - target: {fileID: 100000, guid: 1d4ae729b233b3f43983879c47231249, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1d4ae729b233b3f43983879c47231249, type: 3}
   m_IsPrefabParent: 0
@@ -250,8 +254,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.022925925, y: 0.14709635, z: 0.027331693}
-  m_Center: {x: 0.000035075467, y: -0.07251704, z: -0.013665807}
+  m_Size: {x: 0.02, y: 0.048, z: 0.02733183}
+  m_Center: {x: 0, y: -0.121, z: -0.013665846}
 --- !u!82 &98163148
 AudioSource:
   m_ObjectHideFlags: 0
@@ -262,7 +266,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 5e480a06e355bcf4783059dc021ded96, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -347,6 +351,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!65 &98163149
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 98163144}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.012, y: 0.1, z: 0.02733183}
+  m_Center: {x: 0, y: -0.047, z: -0.013665846}
 --- !u!1 &282840810
 GameObject:
   m_ObjectHideFlags: 0
@@ -398,7 +414,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 0
+  orthographic: 1
   orthographic size: 5
   m_Depth: -1
   m_CullingMask:
@@ -444,7 +460,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &340498979
 Transform:
   m_ObjectHideFlags: 0
@@ -597,6 +613,14 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 3e7436f428621d24fbf4f792b74538ad, type: 2}
+    - target: {fileID: 2300000, guid: 7a6bc4290cd87414fadbf1665dafdaa9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 72c7a60beca52c94faf0f7ddfa9db584, type: 2}
+    - target: {fileID: 100000, guid: 7a6bc4290cd87414fadbf1665dafdaa9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7a6bc4290cd87414fadbf1665dafdaa9, type: 3}
   m_IsPrefabParent: 0
@@ -644,8 +668,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.011899418, y: 0.09507357, z: 0.026312308}
-  m_Center: {x: -0.000024344537, y: -0.045806125, z: -0.006691374}
+  m_Size: {x: 0.01, y: 0.093, z: 0.026312308}
+  m_Center: {x: 0, y: -0.045806125, z: -0.006691374}
 --- !u!82 &531464115
 AudioSource:
   m_ObjectHideFlags: 0
@@ -656,7 +680,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: b3b361882b838f14ba80acc5c1b8e912, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -784,6 +808,10 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: b73b98332406ef84d9438bf9b77af2ea, type: 2}
+    - target: {fileID: 100000, guid: 767a4f6667f9c844bbeee9c4a7f1f455, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 767a4f6667f9c844bbeee9c4a7f1f455, type: 3}
   m_IsPrefabParent: 0
@@ -831,8 +859,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.022991667, y: 0.14704579, z: 0.027331641}
-  m_Center: {x: -0.0013527515, y: -0.07249515, z: -0.013665802}
+  m_Size: {x: 0.02, y: 0.048, z: 0.02733183}
+  m_Center: {x: -0.0015, y: -0.121, z: -0.013665846}
 --- !u!82 &546798044
 AudioSource:
   m_ObjectHideFlags: 0
@@ -843,7 +871,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 52eedb010ec443b42a14c6a25db02d70, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -928,6 +956,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!65 &546798045
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 546798040}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.011, y: 0.1, z: 0.02733183}
+  m_Center: {x: -0.006, y: -0.047, z: -0.013665846}
 --- !u!1001 &643525985
 Prefab:
   m_ObjectHideFlags: 0
@@ -971,6 +1011,10 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 30bea7fc83209dd4bb5b34ba328198f2, type: 2}
+    - target: {fileID: 100000, guid: 41d1c9d794310924c9c16dfad5b844ee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41d1c9d794310924c9c16dfad5b844ee, type: 3}
   m_IsPrefabParent: 0
@@ -1018,8 +1062,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.022906497, y: 0.14711641, z: 0.02733164}
-  m_Center: {x: -0.0013483426, y: -0.07253012, z: -0.013665801}
+  m_Size: {x: 0.02, y: 0.048, z: 0.02733183}
+  m_Center: {x: -0.0015, y: -0.121, z: -0.013665846}
 --- !u!82 &643525991
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1030,7 +1074,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 52eedb010ec443b42a14c6a25db02d70, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -1115,6 +1159,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!65 &643525992
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 643525987}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.011, y: 0.1, z: 0.02733183}
+  m_Center: {x: -0.006, y: -0.047, z: -0.013665846}
 --- !u!1001 &863832489
 Prefab:
   m_ObjectHideFlags: 0
@@ -1158,6 +1214,14 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: b738285500042b042a9d31ea1750d674, type: 2}
+    - target: {fileID: 2300000, guid: 36dcd9f8a34343c41b9466d9a760a549, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 72c7a60beca52c94faf0f7ddfa9db584, type: 2}
+    - target: {fileID: 100000, guid: 36dcd9f8a34343c41b9466d9a760a549, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 36dcd9f8a34343c41b9466d9a760a549, type: 3}
   m_IsPrefabParent: 0
@@ -1205,8 +1269,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.011813861, y: 0.09507376, z: 0.02631232}
-  m_Center: {x: -0.000025413929, y: -0.04580615, z: -0.006691374}
+  m_Size: {x: 0.01, y: 0.093, z: 0.026312308}
+  m_Center: {x: 0, y: -0.045806125, z: -0.006691374}
 --- !u!82 &863832495
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1217,7 +1281,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: b3b361882b838f14ba80acc5c1b8e912, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -1345,6 +1409,10 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 19c06ad2f5b2cbc478f8c91dba6a6010, type: 2}
+    - target: {fileID: 100000, guid: 227a6041f8f687a4688c89e598071db5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 227a6041f8f687a4688c89e598071db5, type: 3}
   m_IsPrefabParent: 0
@@ -1392,8 +1460,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.022868758, y: 0.14714183, z: 0.027331637}
-  m_Center: {x: 0.0013936165, y: -0.07253739, z: -0.013665822}
+  m_Size: {x: 0.02, y: 0.048, z: 0.02733183}
+  m_Center: {x: 0.0015, y: -0.121, z: -0.013665846}
 --- !u!82 &911744366
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1404,7 +1472,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d561dba98c0f8f54b90eb290ce898681, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -1489,6 +1557,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!65 &911744367
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 911744362}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.011, y: 0.1, z: 0.02733183}
+  m_Center: {x: 0.006, y: -0.047, z: -0.013665846}
 --- !u!1 &971657716 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 34cfb93dc9c0a8e41ac5f2f1268fbfbc, type: 3}
@@ -1514,8 +1594,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.023010513, y: 0.14702095, z: 0.02733183}
-  m_Center: {x: -0.0040366305, y: -0.072483115, z: -0.013665846}
+  m_Size: {x: 0.02, y: 0.048, z: 0.02733183}
+  m_Center: {x: -0.0040366305, y: -0.121, z: -0.013665846}
 --- !u!82 &971657719
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1526,7 +1606,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 5e480a06e355bcf4783059dc021ded96, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -1626,6 +1706,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 1
+--- !u!65 &971657721
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 971657716}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.017, y: 0.1, z: 0.02733183}
+  m_Center: {x: -0.002, y: -0.047, z: -0.013665846}
 --- !u!1001 &1057534131
 Prefab:
   m_ObjectHideFlags: 0
@@ -1669,6 +1761,14 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 2f4897508802d5b469fa0572749ac581, type: 2}
+    - target: {fileID: 2300000, guid: 2599142096a572c459f35ba483be7099, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 72c7a60beca52c94faf0f7ddfa9db584, type: 2}
+    - target: {fileID: 100000, guid: 2599142096a572c459f35ba483be7099, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2599142096a572c459f35ba483be7099, type: 3}
   m_IsPrefabParent: 0
@@ -1716,8 +1816,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.011797777, y: 0.095073745, z: 0.026312314}
-  m_Center: {x: -0.000025507294, y: -0.045806166, z: -0.0066913837}
+  m_Size: {x: 0.01, y: 0.093, z: 0.026312308}
+  m_Center: {x: 0, y: -0.045806125, z: -0.006691374}
 --- !u!82 &1057534137
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1728,7 +1828,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d561dba98c0f8f54b90eb290ce898681, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -1856,6 +1956,14 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: b8429dd4568a3ec47960a95145d729ac, type: 2}
+    - target: {fileID: 2300000, guid: e98f83dbe24223a43872b9a2ea718acb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 72c7a60beca52c94faf0f7ddfa9db584, type: 2}
+    - target: {fileID: 100000, guid: e98f83dbe24223a43872b9a2ea718acb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e98f83dbe24223a43872b9a2ea718acb, type: 3}
   m_IsPrefabParent: 0
@@ -1903,8 +2011,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.011873499, y: 0.09507354, z: 0.026312344}
-  m_Center: {x: 0.00007446249, y: -0.045806102, z: -0.0066914023}
+  m_Size: {x: 0.01, y: 0.093, z: 0.026312308}
+  m_Center: {x: 0, y: -0.045806125, z: -0.006691374}
 --- !u!82 &1090687270
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1915,7 +2023,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 3dd037ab72129e64ca48d3b3c8a2c651, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -2043,6 +2151,10 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: f1fb8a1ea6537d14084f30d62bb79da4, type: 2}
+    - target: {fileID: 100000, guid: 56da399867e01b148a11ba172cfc938d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 56da399867e01b148a11ba172cfc938d, type: 3}
   m_IsPrefabParent: 0
@@ -2090,8 +2202,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.02284153, y: 0.14716054, z: 0.027331712}
-  m_Center: {x: -0.0012073911, y: -0.072549686, z: -0.013665798}
+  m_Size: {x: 0.02, y: 0.048, z: 0.02733183}
+  m_Center: {x: -0.001, y: -0.121, z: -0.013665846}
 --- !u!82 &1104492745
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2102,7 +2214,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 5e480a06e355bcf4783059dc021ded96, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -2187,6 +2299,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!65 &1104492746
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1104492741}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01, y: 0.1, z: 0.02733183}
+  m_Center: {x: 0, y: -0.047, z: -0.013665846}
 --- !u!1 &1118833077
 GameObject:
   m_ObjectHideFlags: 0
@@ -2239,8 +2363,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1157586828}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 1.56, z: 0}
-  m_LocalScale: {x: 6, y: 6, z: 6.5}
+  m_LocalPosition: {x: 0, y: 0.76, z: 0}
+  m_LocalScale: {x: 6.5, y: 3, z: 7}
   m_Children:
   - {fileID: 421155763}
   - {fileID: 531464110}
@@ -2303,6 +2427,10 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: d195c245881834a419087750d81fdf7f, type: 2}
+    - target: {fileID: 100000, guid: cf7415fc2d783104da4962ef33a9f5cb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf7415fc2d783104da4962ef33a9f5cb, type: 3}
   m_IsPrefabParent: 0
@@ -2350,8 +2478,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.022813333, y: 0.14717866, z: 0.027331725}
-  m_Center: {x: 0.0012552043, y: -0.072558776, z: -0.013665816}
+  m_Size: {x: 0.02, y: 0.048, z: 0.02733183}
+  m_Center: {x: 0.0015, y: -0.121, z: -0.013665846}
 --- !u!82 &1209018941
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2362,7 +2490,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 52eedb010ec443b42a14c6a25db02d70, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -2447,6 +2575,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!65 &1209018942
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1209018937}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01, y: 0.1, z: 0.02733183}
+  m_Center: {x: 0, y: -0.047, z: -0.013665846}
 --- !u!1001 &1400563231
 Prefab:
   m_ObjectHideFlags: 0
@@ -2490,6 +2630,10 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 277cc0b7cbb06fc41bcc5bb6499a3b90, type: 2}
+    - target: {fileID: 100000, guid: f180a9c7683060745ab2c241604a979a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f180a9c7683060745ab2c241604a979a, type: 3}
   m_IsPrefabParent: 0
@@ -2537,8 +2681,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.022793083, y: 0.14719597, z: 0.02733165}
-  m_Center: {x: -0.0013423524, y: -0.07256957, z: -0.013665801}
+  m_Size: {x: 0.02, y: 0.048, z: 0.02733183}
+  m_Center: {x: -0.0015, y: -0.121, z: -0.013665846}
 --- !u!82 &1400563237
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2549,7 +2693,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 3dd037ab72129e64ca48d3b3c8a2c651, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -2634,6 +2778,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!65 &1400563238
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1400563233}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.011, y: 0.1, z: 0.02733183}
+  m_Center: {x: -0.006, y: -0.047, z: -0.013665846}
 --- !u!1001 &1638680560
 Prefab:
   m_ObjectHideFlags: 0
@@ -2677,6 +2833,10 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: a356ccd58297eee489d5e6b88f9f7f25, type: 2}
+    - target: {fileID: 100000, guid: 9909c20c303eab44e824be8b0df4240a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9909c20c303eab44e824be8b0df4240a, type: 3}
   m_IsPrefabParent: 0
@@ -2724,8 +2884,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.0229532, y: 0.14707461, z: 0.027331633}
-  m_Center: {x: 0.0013995025, y: -0.07250364, z: -0.013665791}
+  m_Size: {x: 0.02, y: 0.048, z: 0.02733183}
+  m_Center: {x: 0.0015, y: -0.121, z: -0.013665846}
 --- !u!82 &1638680566
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2736,7 +2896,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d561dba98c0f8f54b90eb290ce898681, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -2821,6 +2981,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!65 &1638680567
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1638680562}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.011, y: 0.1, z: 0.02733183}
+  m_Center: {x: 0.006, y: -0.047, z: -0.013665846}
 --- !u!1 &1650296120
 GameObject:
   m_ObjectHideFlags: 0
@@ -2837,7 +3009,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &1650296122
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3063,6 +3235,14 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 0bbbf7a7ab13e424db19dc0d983fdc2d, type: 2}
+    - target: {fileID: 2300000, guid: 3ecbfea24d6e1664db5af460b5477d45, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 72c7a60beca52c94faf0f7ddfa9db584, type: 2}
+    - target: {fileID: 100000, guid: 3ecbfea24d6e1664db5af460b5477d45, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3ecbfea24d6e1664db5af460b5477d45, type: 3}
   m_IsPrefabParent: 0
@@ -3110,8 +3290,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.011829994, y: 0.09507362, z: 0.026312344}
-  m_Center: {x: 0.00007354584, y: -0.04580614, z: -0.0066913953}
+  m_Size: {x: 0.01, y: 0.093, z: 0.026312308}
+  m_Center: {x: 0, y: -0.045806125, z: -0.006691374}
 --- !u!82 &1939849961
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3122,7 +3302,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 3dd037ab72129e64ca48d3b3c8a2c651, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -3250,6 +3430,14 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 1824892839c52074d8789a6aef8e92e6, type: 2}
+    - target: {fileID: 2300000, guid: 79857dc15cf0c7d42881e08f2c083fd6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 72c7a60beca52c94faf0f7ddfa9db584, type: 2}
+    - target: {fileID: 100000, guid: 79857dc15cf0c7d42881e08f2c083fd6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 79857dc15cf0c7d42881e08f2c083fd6, type: 3}
   m_IsPrefabParent: 0
@@ -3297,8 +3485,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.011855912, y: 0.095073625, z: 0.026312314}
-  m_Center: {x: -0.000024925683, y: -0.045806136, z: -0.0066913767}
+  m_Size: {x: 0.01, y: 0.093, z: 0.026312308}
+  m_Center: {x: 0, y: -0.045806125, z: -0.006691374}
 --- !u!82 &2005617129
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3309,7 +3497,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: b3b361882b838f14ba80acc5c1b8e912, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
