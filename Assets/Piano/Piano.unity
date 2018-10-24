@@ -359,7 +359,7 @@ BoxCollider:
   m_GameObject: {fileID: 98163144}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.012, y: 0.1, z: 0.02733183}
   m_Center: {x: 0, y: -0.047, z: -0.013665846}
@@ -414,8 +414,8 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 1
-  orthographic size: 5
+  orthographic: 0
+  orthographic size: 6
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1714,7 +1714,7 @@ BoxCollider:
   m_GameObject: {fileID: 971657716}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.017, y: 0.1, z: 0.02733183}
   m_Center: {x: -0.002, y: -0.047, z: -0.013665846}
@@ -2307,7 +2307,7 @@ BoxCollider:
   m_GameObject: {fileID: 1104492741}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.1, z: 0.02733183}
   m_Center: {x: 0, y: -0.047, z: -0.013665846}
@@ -2363,8 +2363,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1157586828}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0.76, z: 0}
-  m_LocalScale: {x: 6.5, y: 3, z: 7}
+  m_LocalPosition: {x: 0, y: 1.05, z: 0}
+  m_LocalScale: {x: 6.5, y: 4, z: 7}
   m_Children:
   - {fileID: 421155763}
   - {fileID: 531464110}
@@ -2583,7 +2583,7 @@ BoxCollider:
   m_GameObject: {fileID: 1209018937}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.1, z: 0.02733183}
   m_Center: {x: 0, y: -0.047, z: -0.013665846}
@@ -2786,7 +2786,7 @@ BoxCollider:
   m_GameObject: {fileID: 1400563233}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.011, y: 0.1, z: 0.02733183}
   m_Center: {x: -0.006, y: -0.047, z: -0.013665846}
@@ -3009,7 +3009,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!23 &1650296122
 MeshRenderer:
   m_ObjectHideFlags: 0

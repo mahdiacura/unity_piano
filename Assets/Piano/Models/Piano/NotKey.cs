@@ -6,6 +6,7 @@ public class NotKey : MonoBehaviour {
     Animator animator;
     AudioSource audio;
     int collidedObjects = 0;
+    bool endOfReleasing = false;
 
 	// Use this for initialization
 	void Start () {
@@ -15,6 +16,7 @@ public class NotKey : MonoBehaviour {
         audio = GetComponent<AudioSource>();
 
         collidedObjects = 0;
+        endOfReleasing = true;
     }
 	
 	// Update is called once per frame
@@ -26,8 +28,11 @@ public class NotKey : MonoBehaviour {
     {
         if ("Particle" == other.gameObject.tag){
             if (collidedObjects <= 0){
+                if (true == endOfReleasing){
+                    audio.Play();
+                    endOfReleasing = false;
+                }
                 animator.SetBool("IsPressed", true);
-                audio.Play();
             }
             collidedObjects++;
         }
@@ -44,5 +49,8 @@ public class NotKey : MonoBehaviour {
         }
     }
 
+    public void EndOfReleasing(){
+        endOfReleasing = true;
+    }
 
 }

@@ -1,2 +1,2 @@
 Date		Version		Log
-97-08-02	1.2.1		The bug of multi touch on a key is fixed now. 
+97-08-02	1.2.2		Sounds will not play again untill the animation of releasing is not over. 
