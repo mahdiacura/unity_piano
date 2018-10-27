@@ -6,6 +6,6 @@ using UnityEngine;
 
 public class SystemVersion : MonoBehaviour {
     public static int MAJOR_VERSION = 1;
-    public static int MINOR_VERSION = 3;
+    public static int MINOR_VERSION = 4;
     public static int BUILD_VERSION = 0;
 }
