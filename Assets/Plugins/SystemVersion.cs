@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-//97-08-02	1.3.0		The material fading on black keys has been done.
+//97-08-05	1.4.0		Global game controller and animation have been set for white kies.
 
 public class SystemVersion : MonoBehaviour {
     public static int MAJOR_VERSION = 1;

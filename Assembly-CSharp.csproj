@@ -11,7 +11,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{566D293B-6F71-32AA-4E5A-CDF198A27E37}</ProjectGuid>
+    <ProjectGuid>{6DC9B68B-C93B-C1A1-60B7-35383AD017DF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -66,10 +66,10 @@
   <ItemGroup>
     <Compile Include="Assets\Piano\Models\Piano\NotKey.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>D:/C#/Piano/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>D:/C#/Irancel_Piano/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/C#/Piano/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>D:/C#/Irancel_Piano/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -270,7 +270,7 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="SenseEngineUnityPlugin">
-      <HintPath>D:/C#/Piano/Assets/Plugins/SenseEngineUnityPlugin.dll</HintPath>
+      <HintPath>D:/C#/Irancel_Piano/Assets/Plugins/SenseEngineUnityPlugin.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>C:/Users/Mahdi/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
@@ -311,7 +311,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{94B3DF2D-1E3E-1892-3A1A-4BDC0E3AD4F1}</Project>
+      <Project>{175FCD73-5924-4610-49F5-761E00C6065E}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
   </ItemGroup>
