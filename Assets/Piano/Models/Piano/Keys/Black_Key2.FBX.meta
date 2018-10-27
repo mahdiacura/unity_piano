@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fdf2070082d331f44be3d9e90994e3ad
+guid: e98f83dbe24223a43872b9a2ea718acb
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -8,11 +8,11 @@ ModelImporter:
     2100000: M_Black
     2300000: //RootNode
     3300000: //RootNode
-    4300000: B_Key_6
-    7400000: BlackKey6_Released
-    7400002: BlackKey6_Pressing
-    7400004: BlackKey6_Pressed
-    7400006: BlackKey6_Releasing
+    4300000: B_Key_2
+    7400000: BlackKey2_Released
+    7400002: BlackKey2_Pressing
+    7400004: BlackKey2_Pressed
+    7400006: BlackKey2_Releasing
     9500000: //RootNode
   externalObjects: {}
   materials:
@@ -43,10 +43,10 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: BlackKey6_Released
+      name: BlackKey2_Released
       takeName: Take 001
-      firstFrame: 255
-      lastFrame: 256
+      firstFrame: 80
+      lastFrame: 81
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -71,10 +71,10 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: BlackKey6_Pressing
+      name: BlackKey2_Pressing
       takeName: Take 001
-      firstFrame: 255
-      lastFrame: 260
+      firstFrame: 80
+      lastFrame: 85
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -99,10 +99,10 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: BlackKey6_Pressed
+      name: BlackKey2_Pressed
       takeName: Take 001
-      firstFrame: 265
-      lastFrame: 266
+      firstFrame: 85
+      lastFrame: 86
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -127,10 +127,10 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: BlackKey6_Releasing
+      name: BlackKey2_Releasing
       takeName: Take 001
-      firstFrame: 265
-      lastFrame: 270
+      firstFrame: 90
+      lastFrame: 95
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -150,7 +150,7 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
-      - time: 0.9510192
+      - time: 0.9916482
         functionName: EndOfReleasing
         data: 
         objectReferenceParameter: {fileID: 11500000, guid: fbe0e90a3deec6c468a4df74d58526c6,

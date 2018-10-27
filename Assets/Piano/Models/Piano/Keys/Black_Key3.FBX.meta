@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fdf2070082d331f44be3d9e90994e3ad
+guid: 79857dc15cf0c7d42881e08f2c083fd6
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -8,11 +8,11 @@ ModelImporter:
     2100000: M_Black
     2300000: //RootNode
     3300000: //RootNode
-    4300000: B_Key_6
-    7400000: BlackKey6_Released
-    7400002: BlackKey6_Pressing
-    7400004: BlackKey6_Pressed
-    7400006: BlackKey6_Releasing
+    4300000: B_Key_3
+    7400000: BlackKey3_Released
+    7400002: BlackKey3_Pressing
+    7400004: BlackKey3_Pressed
+    7400006: BlackKey3_Releasing
     9500000: //RootNode
   externalObjects: {}
   materials:
@@ -43,10 +43,10 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: BlackKey6_Released
+      name: BlackKey3_Released
       takeName: Take 001
-      firstFrame: 255
-      lastFrame: 256
+      firstFrame: 115
+      lastFrame: 116
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -69,12 +69,12 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+      additiveReferencePoseFrame: 115
     - serializedVersion: 16
-      name: BlackKey6_Pressing
+      name: BlackKey3_Pressing
       takeName: Take 001
-      firstFrame: 255
-      lastFrame: 260
+      firstFrame: 115
+      lastFrame: 120
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -97,12 +97,12 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+      additiveReferencePoseFrame: 115
     - serializedVersion: 16
-      name: BlackKey6_Pressed
+      name: BlackKey3_Pressed
       takeName: Take 001
-      firstFrame: 265
-      lastFrame: 266
+      firstFrame: 120
+      lastFrame: 121
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -125,12 +125,12 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+      additiveReferencePoseFrame: 115
     - serializedVersion: 16
-      name: BlackKey6_Releasing
+      name: BlackKey3_Releasing
       takeName: Take 001
-      firstFrame: 265
-      lastFrame: 270
+      firstFrame: 125
+      lastFrame: 130
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -150,7 +150,7 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
-      - time: 0.9510192
+      - time: 0.98939276
         functionName: EndOfReleasing
         data: 
         objectReferenceParameter: {fileID: 11500000, guid: fbe0e90a3deec6c468a4df74d58526c6,
@@ -161,7 +161,7 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+      additiveReferencePoseFrame: 115
     isReadable: 1
   meshes:
     lODScreenPercentages: []
