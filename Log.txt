@@ -1,2 +1,2 @@
 Date		Version		Log
-97-08-06	1.5.2		When the scene is crowed, the sounds will play with a little delay.
+97-08-06	1.5.3		Play button is in progress.
