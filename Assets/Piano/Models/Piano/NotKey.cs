@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class NotKey : MonoBehaviour {
+    public GameObject MusicalSymbol;
     Animator animator;
     AudioSource audio;
     int collidedObjects = 0;
@@ -31,6 +32,11 @@ public class NotKey : MonoBehaviour {
                 if (true == endOfReleasing){
                     audio.Play();
                     endOfReleasing = false;
+
+                    if (null != MusicalSymbol){
+                        GameObject musicalParticle = Instantiate(MusicalSymbol, new Vector3(transform.position.x, 1.7f, -6), Quaternion.Euler(75, 0, 0));
+                        Destroy(musicalParticle, 2f);
+                    }
                 }
                 animator.SetBool("IsPressed", true);
             }
