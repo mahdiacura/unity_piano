@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 199859528318163908}
   - component: {fileID: 114746262536611800}
   m_Layer: 0
-  m_Name: Particle System
+  m_Name: NoteSombolParticle2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -301,7 +301,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 6
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -4657,7 +4657,7 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: a9c71d15324d4d045a4ca5063a837a87, type: 2}
+  - {fileID: 2100000, guid: 4482be8bb3f458d419f890f30ff6308f, type: 2}
   - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -4692,7 +4692,7 @@ ParticleSystemRenderer:
   m_UseCustomVertexStreams: 0
   m_EnableGPUInstancing: 1
   m_VertexStreams: 00010304
-  m_Mesh: {fileID: 4300000, guid: 22bf344e6f2d92d47a07c64b810ee98a, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 939b3a90164e41d43ba0f937d1cfb351, type: 3}
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
