@@ -1,2 +1,2 @@
 Date		Version		Log
-97-08-05	1.4.1		Global game controller and animation have been set for whole of the kies.
+97-08-06	1.5.0		Musical note is synchronised with the kies. 

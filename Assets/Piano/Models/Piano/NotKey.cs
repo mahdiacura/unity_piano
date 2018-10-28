@@ -35,7 +35,7 @@ public class NotKey : MonoBehaviour {
 
                     if (null != MusicalSymbol){
                         GameObject musicalParticle = Instantiate(MusicalSymbol, new Vector3(transform.position.x, 1.7f, -6), Quaternion.Euler(75, 0, 0));
-                        Destroy(musicalParticle, 2f);
+                        Destroy(musicalParticle, 1.4f);
                     }
                 }
                 animator.SetBool("IsPressed", true);
