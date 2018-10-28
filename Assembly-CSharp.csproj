@@ -64,6 +64,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Piano\Models\Background\Player.cs" />
+    <Compile Include="Assets\Piano\Models\Irancell_Notes\NotePlayer.cs" />
     <Compile Include="Assets\Piano\Models\Piano\NotKey.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/C#/Irancel_Piano/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>

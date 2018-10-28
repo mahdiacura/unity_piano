@@ -8,6 +8,8 @@ public class NotKey : MonoBehaviour {
     AudioSource audio;
     int collidedObjects = 0;
     bool endOfReleasing = false;
+    NotePlayer notePlayer;
+    static float lastPlayTime;
 
 	// Use this for initialization
 	void Start () {
@@ -16,8 +18,11 @@ public class NotKey : MonoBehaviour {
 
         audio = GetComponent<AudioSource>();
 
+        notePlayer = GameObject.FindGameObjectWithTag("NotePlayer").GetComponent<NotePlayer>();
+
         collidedObjects = 0;
         endOfReleasing = true;
+        lastPlayTime = Time.time;
     }
 	
 	// Update is called once per frame
@@ -30,12 +35,16 @@ public class NotKey : MonoBehaviour {
         if ("Particle" == other.gameObject.tag){
             if (collidedObjects <= 0){
                 if (true == endOfReleasing){
-                    audio.Play();
+                    if (Time.time - lastPlayTime >= 0.17f){//0.17f
+                        lastPlayTime = Time.time;
+                        notePlayer.OnPressKey();
+                        //audio.Play();
+                    }
                     endOfReleasing = false;
 
                     if (null != MusicalSymbol){
                         GameObject musicalParticle = Instantiate(MusicalSymbol, new Vector3(transform.position.x, 1.7f, -6), Quaternion.Euler(75, 0, 0));
-                        Destroy(musicalParticle, 1.4f);
+                        Destroy(musicalParticle, 2.99f);//1.4f
                     }
                 }
                 animator.SetBool("IsPressed", true);
