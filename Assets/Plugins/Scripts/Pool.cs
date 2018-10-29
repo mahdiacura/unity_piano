@@ -15,8 +15,7 @@ public class Pool
             {
                 GameObject q = MonoBehaviour.Instantiate(PoolObject, new Vector3(1000, 0, 0), Quaternion.identity) as GameObject;
                 q.transform.eulerAngles = new Vector3(0, 0, 0);
-                //q.transform.parent = parent.transform;
-                q.transform.SetParent(parent.transform);
+                q.transform.parent = parent.transform;
                 _PoolObjects.Add(q);
             }
         }

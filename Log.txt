@@ -1,2 +1,2 @@
 Date		Version		Log
-97-08-06	1.5.3		Play button is in progress.
+97-08-06	1.6.0		The start logo movie has been added.
